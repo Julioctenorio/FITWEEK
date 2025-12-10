@@ -2,7 +2,7 @@ export default function Button() {
   return (
     <>
       <button
-        className="inline-block rounded-xl border border-none bg-green-400 px-8 py-3 text-lg font-medium text-neutral-800 transition hover:scale-110 hover:shadow-xl xl:w-72 xl:h-18 xl:text-2xl"
+        className="inline-block rounded-xl border border-current bg-green-400 px-8 py-3 text-lg font-medium text-neutral-800 transition hover:scale-110 hover:shadow-xl xl:w-64 xl:h-15 xl:text-2xl"
       >
         Começar Agora
       </button>

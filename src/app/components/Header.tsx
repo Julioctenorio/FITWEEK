@@ -2,7 +2,7 @@
 export default function Header() {
   return (
     <>
-      <div className="flex w-28 h-28 border rounded-full items-center justify-center bg-green-400 border-none xl:w-36 xl:h-36">
+      <div className="flex w-28 h-28 border rounded-full items-center justify-center bg-green-400 border-none 2xl:w-36 2xl:h-36">
         <img
           src="haltere.png"
           alt="Dunbell design"
@@ -10,7 +10,7 @@ export default function Header() {
         />
       </div>
       <div>
-        <h1 className="uppercase text-4xl my-5 xl:text-9xl text-white">
+        <h1 className="uppercase text-4xl my-5 xl:text-8xl text-white">
           Fitweek
         </h1>
         <p className="mx-16 text-gray-400">

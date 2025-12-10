@@ -10,20 +10,20 @@ export default function Home() {
         <Header />
         <div className="flex my-16">
           <div className="flex flex-col w-20 items-center">
-            <img src="chama.png" alt="Fire design" className="w-6 h-6 mb-1 xl:w-10 xl:h-10" />
-            <p className="text-sm text-gray-300 md:text-lg">Sequências</p>
+            <img src="chama.png" alt="Fire design" className="w-6 h-6 mb-1 xl:w-8 xl:h-8" />
+            <p className="text-sm text-gray-300 xl:text-lg">Sequências</p>
           </div>
           <div className="flex flex-col w-30 items-center border-gray-500 border-l border-r mx-6 xl:mx-20 xl:w-50">
             <img
               src="raio.png"
               alt="Lightning design"
-              className="w-6 h-6 mb-1 xl:w-10 xl:h-10 border-none bg-gree"
+              className="w-6 h-6 mb-1 xl:w-8 xl:h-8 border-none bg-gree"
             />
-            <p className="text-sm text-gray-300 md:text-lg">Pontos</p>
+            <p className="text-sm text-gray-300 xl:text-lg">Pontos</p>
           </div>
           <div className="flex flex-col w-20 items-center">
-            <img src="trofeu.png" alt="Trophy design" className="w-6 h-6 mb-1 xl:w-10 xl:h-10" />
-            <p className="text-sm text-gray-300 md:text-lg">Conquistas</p>
+            <img src="trofeu.png" alt="Trophy design" className="w-6 h-6 mb-1 xl:w-8 xl:h-8" />
+            <p className="text-sm text-gray-300 xl:text-lg">Conquistas</p>
           </div>
         </div>
         <div>
@@ -47,7 +47,7 @@ export default function Home() {
                 className="w-8 h-8"
               />
             </div>
-            <h3 className="text-lg mt-4 mb-1 2xl:text-2xl 2xl:py-2 text-white">Planejamento Semanal</h3>
+            <h3 className="text-lg mt-4 mb-1 2xl:text-xl 2xl:py-1 text-white">Planejamento Semanal</h3>
             <p className="text-gray-400 xl:text-md">
               Organize seus treinos para cada dia da semana de forma clara e
               intuitiva.
@@ -61,7 +61,7 @@ export default function Home() {
                 className="w-8 h-8"
               />
             </div>
-            <h3 className="text-lg mt-4 mb-1 2xl:text-2xl 2xl:py-2 text-white">Treino Progressivo</h3>
+            <h3 className="text-lg mt-4 mb-1 2xl:text-xl 2xl:py-1 text-white">Treino Progressivo</h3>
             <p className="text-gray-400 xl:text-md">
               Programas adaptados ao seu nível: Iniciante, intermediário ou
               avançado.
@@ -75,7 +75,7 @@ export default function Home() {
                 className="w-8 h-8"
               />
             </div>
-            <h3 className="text-lg mt-4 mb-1 2xl:text-2xl 2xl:py-2 text-white">Gamificação</h3>
+            <h3 className="text-lg mt-4 mb-1 2xl:text-xl 2xl:py-1 text-white">Gamificação</h3>
             <p className="text-gray-400 xl:text-md">
               Conquiste pontos, mantenha sequências e desbloqueie conquistas.
             </p>
@@ -88,7 +88,7 @@ export default function Home() {
                 className="w-8 h-8"
               />
             </div>
-            <h3 className="text-lg mt-4 mb-1 2xl:text-2xl 2xl:py-2 text-white">Musculação & Corrida</h3>
+            <h3 className="text-lg mt-4 mb-1 2xl:text-xl 2xl:py-1 text-white">Musculação & Corrida</h3>
             <p className="text-gray-400 xl:text-md">
               Escolha entre treinos de musculação estruturados ou registo de
               corridas.
