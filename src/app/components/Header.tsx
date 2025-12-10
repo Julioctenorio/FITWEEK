@@ -1,7 +1,8 @@
+/* eslint-disable @next/next/no-img-element */
 export default function Header() {
   return (
     <>
-      <div className="flex w-28 h-28 border rounded-full items-center justify-center bg-green-400 border-none xl:w-48 xl:h-48">
+      <div className="flex w-28 h-28 border rounded-full items-center justify-center bg-green-400 border-none xl:w-36 xl:h-36">
         <img
           src="haltere.png"
           alt="Dunbell design"

@@ -6,7 +6,7 @@ import Header from "./components/Header";
 export default function Home() {
   return (
     <div className="bg-black">
-      <div className="flex flex-col w-full h-dvh bg-[#151515] items-center text-center gap-10 justify-center lg:gap-5">
+      <div className="flex flex-col w-full h-dvh bg-[#151515] items-center text-center gap-8 justify-center lg:gap-5 2xl:gap-10">
         <Header />
         <div className="flex my-16">
           <div className="flex flex-col w-20 items-center">
