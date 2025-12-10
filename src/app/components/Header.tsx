@@ -1,8 +1,10 @@
 /* eslint-disable @next/next/no-img-element */
 export default function Header() {
+  // const [step, setStep] = useState(1);
+
   return (
     <>
-      <div className="flex w-28 h-28 border rounded-full items-center justify-center bg-green-400 border-none 2xl:w-36 2xl:h-36">
+      <div className="flex w-28 h-28 border rounded-full items-center justify-center bg-green-400 border-none">
         <img
           src="haltere.png"
           alt="Dunbell design"
@@ -10,12 +12,9 @@ export default function Header() {
         />
       </div>
       <div>
-        <h1 className="uppercase text-4xl my-5 xl:text-8xl text-white">
+        <h1 className="uppercase text-4xl my-4 xl:text-6xl text-white">
           Fitweek
         </h1>
-        <p className="mx-16 text-gray-400">
-          Organize seus treinos semanais de forma simpels e eficaz
-        </p>
       </div>
     </>
   );

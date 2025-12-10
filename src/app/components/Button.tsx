@@ -1,10 +1,11 @@
-export default function Button() {
+export default function Button(props: {text: string, onClick: () => void} ) {
   return (
     <>
       <button
-        className="inline-block rounded-xl border border-current bg-green-400 px-8 py-3 text-lg font-medium text-neutral-800 transition hover:scale-110 hover:shadow-xl xl:w-64 xl:h-15 xl:text-2xl"
+        className="w-80 h-15 inline-block rounded-xl border border-current bg-green-400 px-8 py-3 text-lg font-medium text-neutral-800 transition hover:scale-110 hover:shadow-xl xl:w-64 xl:h-15 xl:text-2xl"
+        onClick={props.onClick}
       >
-        Começar Agora
+        {props.text}
       </button>
 {/* 
       <button
