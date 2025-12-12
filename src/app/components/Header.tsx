@@ -3,7 +3,7 @@
 export default function Header() {
   const day = new Date();
   const hour = day.getHours();
-  const username = localStorage.getItem("username");
+  // const username = localStorage.getItem("username");
   // const training = localStorage.getItem("selectedITraining")
 
   return (
@@ -18,7 +18,7 @@ export default function Header() {
                 ? `Boa tarde, `
                 : `Bom dia, `}
             </p>
-            <h1 className="text-3xl mb-3">{username}</h1>
+            <h1 className="text-3xl mb-3">username</h1>
           </div>
 
           <div className="flex items-center justify-center mx-2">
