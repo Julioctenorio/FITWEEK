@@ -4,8 +4,7 @@ export default function Header() {
   const day = new Date();
   const hour = day.getHours();
   const username = localStorage.getItem("username");
-  const training = localStorage.getItem("selectedITraining")
-  console.log(training)
+  // const training = localStorage.getItem("selectedITraining")
 
   return (
     <>
@@ -79,7 +78,8 @@ export default function Header() {
           </div>
         </div>
         <div className="h-10 border border-neutral-600 rounded-md flex justify-around items-center">
-          <div className="w-full h-8 m-1 py-0.5 rounded-md bg-green-300 font-medium text-black">{training === "1" ? "Musculação" : "Corrida"}</div>
+          {/* <div className="w-full h-8 m-1 py-0.5 rounded-md bg-green-300 font-medium text-black">{training === "1" ? "Musculação" : "Corrida"}</div> */}
+          <div className="w-full h-8 m-1 py-0.5 rounded-md bg-green-300 font-medium text-black">Corrida</div>
           <div className="w-full h-8 m-1 py-0.5 rounded-md  font-medium text-neutral-400">Conquistas</div>
         </div>
       </div>
