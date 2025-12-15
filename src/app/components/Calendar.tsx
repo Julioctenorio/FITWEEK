@@ -49,8 +49,8 @@ export default function CalendarMonth() {
   );
 
   const nivel = useMemo(() => {
-    if (typeof window === "undefined") return "2";
-    return localStorage.getItem("nivel") || "2";
+    if (typeof window === "undefined") return "1";
+    return localStorage.getItem("nivel") || "1";
   }, []);
 
   const trainingPlan = useMemo(() => {
