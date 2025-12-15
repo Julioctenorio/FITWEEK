@@ -63,7 +63,7 @@ export default function ExerciseForm({
   };
 
   return (
-    <div className="bg-neutral-900 rounded-2xl p-6 mt-6 border border-neutral-700">
+    <div className="bg-neutral-900 rounded-2xl p-6 mt-6 border border-neutral-700 ">
       <h3 className="text-xl font-bold text-white mb-5 text-center">
         {initialExercise ? "Editar Exercício" : "Novo Exercício"}
       </h3>
