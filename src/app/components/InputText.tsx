@@ -25,7 +25,7 @@ export default function InputText(props: InputTextProps) {
           {...rest}
         />
 
-        <span className="absolute inset-y-0 start-3 -translate-y-5 bg-none text-white px-0.5 text-sm font-medium text-gray-700 transition-transform peer-placeholder-shown:translate-y-0 peer-focus:-translate-y-5 dark:bg-transparent dark:text-white">
+        <span className="absolute inset-y-0 start-3 -translate-y-5 bg-none px-0.5 text-sm font-medium text-gray-500 transition-transform peer-placeholder-shown:translate-y-0 peer-focus:-translate-y-5 dark:bg-transparent dark:text-white">
           {text}
         </span>
       </label>
