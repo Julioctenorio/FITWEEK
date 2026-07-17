@@ -30,7 +30,7 @@ useEffect(() => {
     <Button
       variant={"outline"}
       size={"sm"}
-      className="bg-[#DFFF00] py-4 px-4 rounded-full border-none hover:bg-[#DFFF00]/80"
+      className="bg-[#DFFF00] text-neutral-900 py-4 px-4 rounded-full border-none hover:bg-[#DFFF00]/80"
     >
       Começar Agora
     </Button>

@@ -27,7 +27,9 @@
 
   @media (width >= 48rem) {
     .md\:bg-hero {
-          background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("/background1.0.png");
+      background-image:
+        linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+        url("/background1.0.png");
       background-attachment: fixed;
     }
   }
@@ -150,16 +152,37 @@
   * {
     @apply border-border outline-ring/50;
   }
+
+  html {
+    @apply bg-background;
+    height: 100%;
+    overflow: hidden;
+    overscroll-behavior: none;
+  }
+
   body {
     @apply bg-background text-foreground font-sans;
+    height: 100%;
+    overflow: hidden;
+    overscroll-behavior: none;
   }
-  html {
-    @apply font-sans;
-  }
-  body, p, span, a, li, button, input, textarea {
+
+  body,
+  p,
+  span,
+  a,
+  li,
+  button,
+  input,
+  textarea {
     font-family: var(--font-Oswald), sans-serif;
   }
-  h1, h2, h3, h4, h5, h6 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     font-family: var(--font-Oswald);
   }
 }

@@ -15,7 +15,7 @@ export default function Header() {
           A revolução do fitness digital
         </h3>
 
-        <section className="flex flex-col justify-between items-center md:flex-row">
+        <section className="w-full flex flex-col justify-between items-center md:flex-row">
           <section className="flex flex-col gap-6 md:flex">
             <h1 className="flex flex-col text-white text-5xl font-bold md:text-7xl lg:text-[7rem] lg:leading-30">
               Ultrapasse seus{" "}
@@ -29,7 +29,7 @@ export default function Header() {
             <Button
               variant={"outline"}
               size={"lg"}
-              className="w-full bg-[#DFFF00] py-6 px-2 mt-3 rounded-2xl border-none hover:bg-[#DFFF00]/80 md:w-48"
+              className="w-full bg-[#DFFF00] text-neutral-900 py-6 px-2 mt-3 rounded-2xl border-none hover:bg-[#DFFF00]/80 md:w-48"
             >
               Criar Conta Grátis
               <ArrowRight />

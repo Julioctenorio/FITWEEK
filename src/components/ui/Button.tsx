@@ -10,19 +10,19 @@ const buttonVariants = cva(
     variants: {
       variant: {
         default:
-          "bg-primary text-white font-semibold [text-shadow:0_1px_2px_rgb(0_0_0_/_0.15)] shadow-lg shadow-primary/20 hover:bg-primary hover:brightness-95 hover:shadow-xl hover:shadow-primary/50 hover:-translate-y-0.5 hover:ring-2 hover:ring-primary/40 active:translate-y-0 active:shadow-md active:brightness-90",
+          "bg-primary text-primary-foreground font-semibold [text-shadow:0_1px_2px_rgb(0_0_0_/_0.15)] shadow-lg shadow-primary/20 hover:bg-primary hover:brightness-95 hover:shadow-xl hover:shadow-primary/50 hover:-translate-y-0.5 hover:ring-2 hover:ring-primary/40 active:translate-y-0 active:shadow-md active:brightness-90",
 
         outline:
-          "border-2 border-primary/40 bg-background text-foreground hover:bg-primary hover:text-white hover:border-primary hover:shadow-lg hover:shadow-primary/30 hover:-translate-y-0.5 active:translate-y-0",
+          "border-2 border-primary/40 bg-background text-foreground hover:bg-primary hover:text-primary-foreground hover:border-primary hover:shadow-lg hover:shadow-primary/30 hover:-translate-y-0.5 active:translate-y-0",
 
         secondary:
-          "bg-secondary text-white font-semibold [text-shadow:0_1px_2px_rgb(0_0_0_/_0.15)] shadow-lg shadow-secondary/20 hover:bg-secondary hover:brightness-95 hover:shadow-xl hover:shadow-secondary/50 hover:-translate-y-0.5 hover:ring-2 hover:ring-secondary/40 active:translate-y-0 active:shadow-md active:brightness-90",
+          "bg-secondary text-secondary-foreground font-semibold [text-shadow:0_1px_2px_rgb(0_0_0_/_0.15)] shadow-lg shadow-secondary/20 hover:bg-secondary hover:brightness-95 hover:shadow-xl hover:shadow-secondary/50 hover:-translate-y-0.5 hover:ring-2 hover:ring-secondary/40 active:translate-y-0 active:shadow-md active:brightness-90",
 
         ghost:
-          "text-foreground hover:bg-primary hover:text-white hover:shadow-lg hover:shadow-primary/30 hover:-translate-y-0.5 active:translate-y-0",
+          "text-foreground hover:bg-primary hover:text-primary-foreground hover:shadow-lg hover:shadow-primary/30 hover:-translate-y-0.5 active:translate-y-0",
 
         destructive:
-          "bg-destructive text-white font-semibold [text-shadow:0_1px_2px_rgb(0_0_0_/_0.15)] shadow-lg shadow-destructive/20 hover:bg-destructive hover:brightness-95 hover:shadow-xl hover:shadow-destructive/50 hover:-translate-y-0.5 hover:ring-2 hover:ring-destructive/40 active:translate-y-0 active:shadow-md active:brightness-90",
+          "bg-destructive text-destructive-foreground font-semibold [text-shadow:0_1px_2px_rgb(0_0_0_/_0.15)] shadow-lg shadow-destructive/20 hover:bg-destructive hover:brightness-95 hover:shadow-xl hover:shadow-destructive/50 hover:-translate-y-0.5 hover:ring-2 hover:ring-destructive/40 active:translate-y-0 active:shadow-md active:brightness-90",
 
         link:
           "text-primary underline-offset-4 hover:underline hover:scale-105 active:scale-95 transition-all duration-200",
@@ -72,4 +72,3 @@ function Button({
 }
 
 export { Button, buttonVariants }
-

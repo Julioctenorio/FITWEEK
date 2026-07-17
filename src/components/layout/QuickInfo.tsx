@@ -1,4 +1,5 @@
 import { Dumbbell, Utensils, SportShoe, ChartColumn } from "lucide-react";
+import Image from "next/image";
 
 export default function QuickInfo() {
   const quickInfo = [
@@ -56,6 +57,32 @@ export default function QuickInfo() {
         <p className="text-sm md:text-base text-white/50 max-w-md leading-relaxed">
           Sua rotina merece mais. Performance em cada segundo.
         </p>
+      </div>
+      <div className="w-full flex">
+        <div className="w-80 h-80 flex flex-col items-center justify-center mt-12 bg-neutral-900/60 rounded-2xl mb-2 mx-auto md:w-auto md:flex-row md:mt-0">
+          <div className="w-fill justify-center items-start gap-3">
+            <div className="flex flex-col gap-2 p-8">
+              <h3 className="text-md font-semibold">
+                Para ele. Para ela. Feito para ti.
+              </h3>
+              <p className="text-gray-200 md:w-96">
+                Sem configurações nem escolhas. O app identifica o teu perfil e
+                entrega um visual feito para ti, com cores e imagens que
+                combinam com a tua energia.
+              </p>
+            </div>
+          </div>
+          <div className="w-80 bg-neutral-950/70 p-4">
+            <Image
+              className="w-full"
+              width={6}
+              height={6}
+              src="/fitweek_mockup_transparente.svg"
+              alt="fitweek app mockup feminine and masculine"
+            />
+          </div>
+        </div>
+        <div className="hidden md:block">fazer depois</div>
       </div>
     </div>
   );
